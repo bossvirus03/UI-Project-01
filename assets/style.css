@@ -110,3 +110,27 @@ a{
     bottom: 0;
     right: calc((100vw - 1110px) / 2 - 100px);
 }
+/* ****************** Clients ****************** */
+
+.clients{
+    margin-top: 122px;
+}
+.clients .row{
+    display: flex;
+    justify-content: space-between;
+}
+.clients .desc{
+    color: #7D8589;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.clients .row-desc{
+    margin-top: 23px;
+}
+.clients .images{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
